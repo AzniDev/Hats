@@ -1,6 +1,25 @@
 # Hats
 
-Simple Hats with UI
+🤠Simple Hats with UI
+
+
+### Description
+
+With this plugin, you use a hat!
+
+### Commands
+
+| Command | Description | Permission | Default |
+| --- | --- | --- | --- |
+| ```/hat``` | ```Using a Hat``` | ```hats.use``` | ```true``` |
+
+### Issues
+
+Known Issues:
+
+- No known issues :D
+
+For another issues, please report [here](https://github.com/zsfell/Hats/issues/new)
 
 
 ### Images
