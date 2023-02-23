@@ -1,0 +1,14 @@
+name: Hats
+api: 4.0.0
+version: 1
+main: hats\Main
+author: zsfell
+commands:
+  hat:
+    description: "Hats no Cap"
+    usage: /hat
+    permission: hats.use
+    aliases: [hat]
+permissions:
+  hats.use:
+    default: true
