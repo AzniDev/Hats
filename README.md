@@ -21,6 +21,9 @@ Known Issues:
 
 For another issues, please report [here](https://github.com/zsfell/Hats/issues/new)
 
+### TODO
+- Add More Hat
+
 
 ### Images
 
