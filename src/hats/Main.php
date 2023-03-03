@@ -96,25 +96,18 @@ class Main extends PluginBase implements Listener
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "cowboy");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 1:
                     if (
                         $sender->hasPermission("crown.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "crown");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                     break;
                 case 2:
                     if (
@@ -122,77 +115,54 @@ class Main extends PluginBase implements Listener
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "glass");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED . "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 3:
                     if (
                         $sender->hasPermission("magician.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "magician");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED . "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 4:
                     if (
                         $sender->hasPermission("melon.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "melon");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 5:
                     if (
                         $sender->hasPermission("pumpkin.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "pumpkin");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 6:
                     if (
                         $sender->hasPermission("tv.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "tv");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 7:
                     if (
                         $sender->hasPermission("witch.hats") or $sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)) {
                         $setskin = new setSkin();
                         $setskin->setSkin($sender, "witch");
                     } else {
-                        $this->Form(
-                            $sender,
-                            TextFormat::RED .
-                                "You dont have Permission to Use This Wing"
-                        );
-                    }
-                    break;
-                    break;
+    			    $this->Form($sender, TextFormat::RED . "You dont have Permission to Use This Hats");
+    			  }
+    			break;
                 case 11:
                     $this->resetSkin($sender);
                     break;
